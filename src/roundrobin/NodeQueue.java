@@ -63,7 +63,7 @@ public class NodeQueue {
             Node tail = getTail();
             //System.out.println("La cabeza actual tiene el id "+this.head.getId());
             //System.out.println("La cola actual tiene el id "+tail.getId());
-            //System.out.println("El segundo actual tiene el id "+tail.getId());
+            //System.out.println("El segundo actual tiene el id "+this.head.getNext.getId());
 
             newHead.setNext(this.head.getNext());
             //System.out.println("A la nueva cabeza se asigno como siguiente el id "+newHead.getNext().getId());
